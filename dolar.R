@@ -720,9 +720,9 @@ resultados <- tabla %>%
 ggplot(resultados, aes(x = Porcentaje, y = Valor, color = Método)) +
   geom_point(size = 2.5) +
   geom_line(linewidth = 1) +
-  facet_wrap(~Métrica, scales = "free_y") +  # Crea un panel por cada métrica
+  facet_wrap(~Métrica, scales = "free_y") +  
   labs(title = "Gráfico 4.1.7: Desempeño de los métodos de imputación 
-  según la proporción de valores faltantes", 
+  según la proporción de valores faltantes fijos (Tabla 4.1.1)", 
        x = "Proporción de valores faltantes", 
        y = "Valor de la Métrica", 
        color = "Método de Imputación") +
