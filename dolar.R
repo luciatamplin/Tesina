@@ -115,7 +115,7 @@ ggsubseriesplot(datosts) +
 
 ggplot(datos, aes(x = factor(Año), y = blue)) +
   geom_boxplot(fill = "#4F94CD") +
-  labs(title = "Gráfico 4.1.6: Box-plot comparativo por mes de la temperatura media en Rosario",
+  labs(title = "Gráfico 4.1.6: Box-plot comparativo por mes del precio del dólar blue",
        x = "Año",
        y = "Precio del Dólar Blue ($)") +
   theme_minimal() +
